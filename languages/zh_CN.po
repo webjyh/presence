@@ -1,0 +1,525 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: presence ves 1.0\n"
+"POT-Creation-Date: 2013-02-22 11:22+0800\n"
+"PO-Revision-Date: 2013-02-22 11:22+0800\n"
+"Last-Translator: \n"
+"Language-Team: M.J <1069988144@qq.com>\n"
+"Language: zh-CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:19
+msgid "You Know"
+msgstr "你懂的"
+
+#: ../archive.php:12
+#, php-format
+msgid "All posts in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../archive.php:14
+#, php-format
+msgid "All posts tagged &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../archive.php:16 ../archive.php:18
+msgid "Archive for "
+msgstr ""
+
+#: ../archive.php:20
+msgid "Archive for"
+msgstr ""
+
+#: ../archive.php:22
+msgid "All posts by "
+msgstr ""
+
+#: ../archive.php:24
+msgid "Blog Archives"
+msgstr ""
+
+#: ../archive.php:55 ../index.php:39
+msgid "No Results Found"
+msgstr ""
+
+#: ../archive.php:56 ../index.php:40
+msgid ""
+"The page you requested could not be found. Try refining your search, or use "
+"the navigation above to locate the post."
+msgstr ""
+
+#: ../comments-ajax.php:26 ../comments-ajax.php:39 ../comments-ajax.php:42
+msgid "Invalid comment status."
+msgstr "无效的评论"
+
+#: ../comments-ajax.php:36
+msgid "Sorry, comments are closed for this item."
+msgstr "对不起，评论已关闭."
+
+#: ../comments-ajax.php:45
+msgid "Password Protected"
+msgstr "密码保护"
+
+#: ../comments-ajax.php:72
+msgid "Sorry, you must be logged in to post a comment."
+msgstr "对不起，您必须先登录才能发表评论。"
+
+#: ../comments-ajax.php:79
+msgid "Error: please fill the required fields (name, email)."
+msgstr "错误：请填写所需的字段（姓名，电子邮件）。"
+
+#: ../comments-ajax.php:81
+msgid "Error: please enter a valid email address."
+msgstr "错误：请输入一个有效的电子邮件地址。"
+
+#: ../comments-ajax.php:85
+msgid "Error: please type a comment."
+msgstr "错误：请输入留言内容"
+
+#: ../comments-ajax.php:99
+msgid ""
+"Duplicate comment detected; it looks as though you&#8217;ve already said "
+"that!"
+msgstr "请不要重复评论"
+
+#: ../comments-ajax.php:108
+msgid "You are posting comments too quickly.  Slow down."
+msgstr "您发表评论也太快。休息会吧~"
+
+#: ../comments.php:3
+msgid "Please do not load this page directly. Thanks!"
+msgstr "请不要直接加载该页面。谢谢！"
+
+#: ../comments.php:6
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "这是一篇密码保护文章。输入密码查看"
+
+#: ../comments.php:18
+msgid "Comment Reply"
+msgstr "评论回复"
+
+#: ../comments.php:21
+msgid "Reply"
+msgstr "回复"
+
+#: ../comments.php:26
+msgid "pre"
+msgstr "上一页"
+
+#: ../comments.php:26
+msgid "next"
+msgstr "下一页"
+
+#: ../comments.php:46
+msgid "You must be"
+msgstr "你必须"
+
+#: ../comments.php:46
+msgid "logged in"
+msgstr ""
+
+#: ../comments.php:46
+msgid "to post a comment."
+msgstr "发表评论。"
+
+#: ../comments.php:55
+msgid "Logged in as"
+msgstr ""
+
+#: ../comments.php:55
+msgid "Log out &raquo;"
+msgstr "登出"
+
+#: ../comments.php:61
+msgid "Name"
+msgstr "昵称"
+
+#: ../comments.php:66
+msgid "Email"
+msgstr "Email"
+
+#: ../comments.php:71
+msgid "Website"
+msgstr "网址"
+
+#: ../comments.php:71
+msgid "http://"
+msgstr ""
+
+#: ../comments.php:83
+msgid "Submit"
+msgstr "提交"
+
+#: ../content-audio.php:5 ../content-image.php:5 ../content-standard.php:5
+#: ../content-video.php:9 ../single-audio.php:5 ../single-image.php:5
+#: ../single-standard.php:5 ../single-video.php:9
+#, php-format
+msgid "Permalink to %s"
+msgstr "一个指向 %s 的固定链接"
+
+#: ../content-audio.php:24 ../single-audio.php:24
+msgid "Singer"
+msgstr "歌手"
+
+#: ../content-audio.php:28 ../content-audio.php:40 ../single-audio.php:28
+#: ../single-audio.php:40
+msgid "Unknown"
+msgstr "未知"
+
+#: ../content-audio.php:36 ../single-audio.php:36
+msgid "Music Album"
+msgstr "音乐专辑"
+
+#: ../content-audio.php:71 ../content-image.php:26 ../content-standard.php:26
+#: ../content-video.php:36 ../page.php:17 ../single-audio.php:54
+#: ../single-image.php:9 ../single-standard.php:9 ../single-video.php:19
+msgid "Edit"
+msgstr "编辑"
+
+#: ../content-audio.php:84 ../content-image.php:39 ../content-standard.php:39
+#: ../content-video.php:49 ../page-archives.php:48 ../page.php:28
+#: ../single-audio.php:67 ../single-image.php:22 ../single-standard.php:22
+#: ../single-video.php:32
+msgid "Tag:&nbsp;"
+msgstr "标签:&nbsp;"
+
+#: ../content-audio.php:90 ../content-image.php:45 ../content-standard.php:45
+#: ../content-video.php:55 ../page-archives.php:54 ../page.php:34
+#: ../single-audio.php:73 ../single-image.php:28 ../single-standard.php:28
+#: ../single-video.php:38
+msgid "No Tags"
+msgstr "暂无标签"
+
+#: ../functions.php:60
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../functions.php:99
+msgid ""
+"You should type some Chinese word (like \"Hello\") in your comment to pass "
+"the spam-check, thanks for your patience! Your comment must contain Chinese "
+"characters!"
+msgstr "请输入一些汉字 如，你好！等等"
+
+#: ../functions.php:123
+msgid ""
+"Warning: You can not use this nickname, because this is the nickname of the "
+"bloggers!"
+msgstr "警告：您可以不使用这个昵称，因为这是博主的昵称！"
+
+#: ../functions.php:125
+msgid ""
+"Warning: You can not use the mailbox, because this is the mailbox of the "
+"bloggers!"
+msgstr "警告：您不可以使用此邮箱，因为这是博主的邮箱！"
+
+#: ../functions.php:148
+msgid "Home"
+msgstr "首页"
+
+#: ../functions.php:150
+msgid " Pre"
+msgstr "上一页"
+
+#: ../functions.php:193
+msgid "Next"
+msgstr "下一页"
+
+#: ../functions.php:195
+msgid "Last"
+msgstr "末页"
+
+#: ../functions.php:230
+msgid "Reply "
+msgstr "回复"
+
+#: ../functions.php:231
+msgid " Edit "
+msgstr "编辑"
+
+#: ../functions.php:251
+msgid ""
+"These settings enable you to embed audio into your posts. You must provide "
+"both .mp3 and .agg/.oga file formats in order for self hosted audio to "
+"function accross all browsers."
+msgstr ""
+
+#: ../functions.php:255
+msgid "MP3 File URL"
+msgstr ""
+
+#: ../functions.php:256
+msgid "The URL to the .mp3 audio file"
+msgstr ""
+
+#: ../functions.php:263
+msgid "MP3 Level"
+msgstr ""
+
+#: ../functions.php:264
+msgid "Used here &hearts; fill"
+msgstr ""
+
+#: ../functions.php:271
+msgid "MP3 Author"
+msgstr ""
+
+#: ../functions.php:272
+msgid "Here to fill in the name of the artist"
+msgstr ""
+
+#: ../functions.php:279
+msgid "MP3 Album"
+msgstr ""
+
+#: ../functions.php:280
+msgid "Here to fill out the album name"
+msgstr ""
+
+#: ../functions.php:287
+msgid "Audio Poster Image"
+msgstr ""
+
+#: ../functions.php:288 ../functions.php:303
+msgid "The preview image for this audio track. Image width should be 210px."
+msgstr ""
+
+#: ../functions.php:291 ../functions.php:306 ../functions.php:425
+#: ../functions.php:505
+msgid "Upload Image"
+msgstr ""
+
+#: ../functions.php:298
+msgid "These settings enable you to embed videos into your posts."
+msgstr ""
+
+#: ../functions.php:302
+msgid "Poster Image"
+msgstr ""
+
+#: ../functions.php:310
+msgid "Embedded Code"
+msgstr ""
+
+#: ../functions.php:311
+msgid ""
+"If you are using something other than self hosted video such as Youtube or "
+"Vimeo, paste the embed code here. Width is best at 500px with any height."
+msgstr ""
+
+#: ../functions.php:318
+msgid "Audio Settings"
+msgstr ""
+
+#: ../functions.php:319
+msgid "Video Settings"
+msgstr ""
+
+#: ../functions.php:365
+msgid "Write to the author"
+msgstr "写信给作者"
+
+#: ../functions.php:366
+msgid "Author Home"
+msgstr "作者主页"
+
+#: ../functions.php:372 ../functions.php:378
+msgid "General Settings"
+msgstr "常规设置"
+
+#: ../functions.php:373 ../functions.php:602
+msgid "Styling Options"
+msgstr "布局选项"
+
+#: ../functions.php:379
+msgid ""
+"Control and configure the general setup of your theme. Upload your preferred "
+"logo, setup your text length and insert your analytics tracking code."
+msgstr ""
+"控制和配置你的主题。上传您的首选标志，设置您的文本长度和插入您的Google "
+"Analytics（分析）跟踪代码。"
+
+#: ../functions.php:381
+msgid "Plain Text Logo"
+msgstr "文字Logo"
+
+#: ../functions.php:382
+msgid ""
+"Check this box to enable a plain text logo rather than upload an image. Will "
+"use your site name."
+msgstr ""
+"选中此复选框以启用一个纯文本的Logo，而不是您上传的图像。文本会使用您网站名称"
+
+#: ../functions.php:394
+msgid "Blog description"
+msgstr "Blog 描述"
+
+#: ../functions.php:395
+msgid "Display the blog description"
+msgstr "显示Blog 网站的副标题"
+
+#: ../functions.php:407
+msgid "Custom Logo Upload"
+msgstr "自定义网站Logo"
+
+#: ../functions.php:408
+msgid "Upload a logo for your theme."
+msgstr "上传Logo，建议使用png透明图片"
+
+#: ../functions.php:426 ../functions.php:506
+msgid "Remove"
+msgstr "移出"
+
+#: ../functions.php:487
+msgid "Custom Favicon Upload"
+msgstr "自定义图标上传"
+
+#: ../functions.php:488
+msgid ""
+"Upload a 16px x 16px Png/Gif image that will represent your website's "
+"favicon."
+msgstr "上传一个16像素x16像素PNG / GIF图像，将代表您的网站的favicon。"
+
+#: ../functions.php:567
+msgid "webSite width"
+msgstr "网站宽度"
+
+#: ../functions.php:568
+msgid ""
+"Setting the total width of the web site can be pixel (866PX) units can also "
+"be a percentage (90%) as a unit, but be sure must be written (px) or (%)"
+msgstr ""
+"设置网站的宽度，可以以像素为单位 (866px) 或者以 百分比为单位 (90%) 但必须的"
+"是，您必须写上单位。"
+
+#: ../functions.php:573
+msgid "webSite Keyword"
+msgstr "网站关键词"
+
+#: ../functions.php:574
+msgid "Set the keywords of the website"
+msgstr "设置您网站的关键词"
+
+#: ../functions.php:579
+msgid "webSite description"
+msgstr "网站描述"
+
+#: ../functions.php:580
+msgid "Set the description of the website"
+msgstr "设置你网站的描述"
+
+#: ../functions.php:590
+msgid "Tracking Code"
+msgstr "统计代码"
+
+#: ../functions.php:591
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. It will be "
+"inserted before the closing body tag of your theme."
+msgstr ""
+"粘贴到您的Google Analytics（分析）跟踪代码（或其他）这里。这将是你的主题body"
+"的闭合标签之前插入。"
+
+#: ../functions.php:603
+msgid ""
+"Configure the visual appearance of you theme by selecting a stylesheet if "
+"applicable, choosing your overall layout and inserting any custom CSS "
+"necessary."
+msgstr "配置你选择的一个样式布局，选择您的整体布局和插入任何自定义的CSS"
+
+#: ../functions.php:605
+msgid "Show summary"
+msgstr "显示摘要"
+
+#: ../functions.php:606
+msgid ""
+"Select this check box is enabled display Abstract default display articles "
+"All"
+msgstr "是否显示文章摘要，如不选择则显示全文"
+
+#: ../functions.php:618
+msgid "Infinite scrolling"
+msgstr "Infinite scrolling"
+
+#: ../functions.php:619
+msgid "Open up infinite scroll"
+msgstr "是否打开无限滚动，不采用分页来显示"
+
+#: ../functions.php:631
+msgid "phZoom"
+msgstr "phZoom"
+
+#: ../functions.php:632
+msgid "Open phZoom"
+msgstr "是否开启图片放大插件"
+
+#: ../functions.php:644
+msgid "Text length"
+msgstr "文本长度"
+
+#: ../functions.php:645
+msgid "Set the plain text of the article text length."
+msgstr "当设置“显示摘要”后，来控制文本显示的长度"
+
+#: ../functions.php:651
+msgid "Custom CSS"
+msgstr "自定义CSS代码"
+
+#: ../functions.php:652
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr "快速添加一些CSS代码"
+
+#: ../functions.php:669
+msgid "Reset Options"
+msgstr "重置选项"
+
+#: ../functions.php:670
+msgid "Save All Changes"
+msgstr "保存所有"
+
+#: ../functions.php:688
+msgid "You do not have sufficient permissions to save these options."
+msgstr "您没有足够的权限来保存这些选项。"
+
+#: ../functions.php:702
+msgid "Settings saved"
+msgstr "保存成功"
+
+#: ../functions.php:718
+msgid "You do not have sufficient permissions to reset these options."
+msgstr "您没有足够的权限来重新设置这些选项。"
+
+#: ../functions.php:776 ../functions.php:777
+msgid "Theme Options"
+msgstr "主题选项"
+
+#: ../functions.php:778
+msgid "edit_themes"
+msgstr "编辑主题"
+
+#: ../page-archives.php:20
+msgid "Last 30 Posts"
+msgstr ""
+
+#: ../page-archives.php:28
+msgid "Archives by Month:"
+msgstr ""
+
+#: ../page-archives.php:32
+msgid "Archives by Subject:"
+msgstr ""
+
+#: ../single.php:15
+msgid "PRE"
+msgstr "上一篇"
+
+#: ../single.php:16
+msgid "NEXT"
+msgstr "下一篇"

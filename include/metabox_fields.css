@@ -1,0 +1,10 @@
+#metaBox-post-format-video, #metaBox-post-format-audio { display:none; }
+.metaBox-hr { color:#FFF; }
+.metaBox-label { display:block; width:25%; float:left; padding:10px;  }
+.metaBox-label strong , .metaBox-label span { display:block; line-height:180%; padding-left:10px;  }
+.metaBox-label span { color:#999999; }
+.metaBox-p { padding:15px 10px 10px; float:right; width:70%; }
+.metaBox-p input, .metaBox-p textarea { width:100%; }
+.kriesi_preview_pic_input { width:80% !important; }
+.k_hijack { border-radius:15px !important; }
+.kriesi_preview_pic { padding:0px 20px; }
