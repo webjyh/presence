@@ -34,8 +34,6 @@
 
 主题下载地址：<https://github.com/webjyh/presence> （如是使用GitHub的可以帮忙Star一下）
 
-备用下载地址：<http://webjyh.com/wp-content/uploads/2014/12/presence.zip>
-
 关于在 GitHub 中下载不知如何下载的，可以在页面中找到 Download ZIP，如还是找不到，可以按Ctrl+F键，然后搜索 Download ZIP，然后看页面中高亮颜色大地区，点击下载即可。
 
 ## 联系作者
