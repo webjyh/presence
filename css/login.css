@@ -19,7 +19,8 @@ body { background:none !important; overflow:hidden; }
 	margin:-235px 0px 0px -140px; 
 }
 
-#login h1 a { 
+#login h1 a {
+	width: auto;
 	font-family:"Microsoft Yahei";
 	font-weight:bold;
 	text-indent:0px;

@@ -4,7 +4,7 @@
  *
  * @package M.J
  * @subpackage presence
- * @since Photo Broad 1.0
+ * @since Photo Broad 2.0.1
  */
 
 	//add default function
@@ -71,6 +71,17 @@
 		return $title;
 	}
 	add_filter( 'wp_title', 'presence_wp_title', 10, 2 );
+
+	/**
+	 * Replace avatar URL
+	 * @author bigfa
+	 * @return string 
+	 */
+	function get_ssl_avatar($avatar) {
+   		$avatar = preg_replace('/.*\/avatar\/(.*)\?s=([\d]+)&.*/','<img src="http://cn.gravatar.com/avatar/$1?s=$2" class="avatar avatar-$2" height="$2" width="$2">',$avatar);
+  		return $avatar;
+	}
+	add_filter('get_avatar', 'get_ssl_avatar');
 	
 	
 	/**
@@ -459,7 +470,7 @@
 			<form action="<?php echo site_url() .'/wp-admin/admin-ajax.php'; ?>" method="post">
 				<div class="header clearfix">
 					<h1 class="theme-name">Presence</h1>
-					<span class="theme-version">v.2.0</span>
+					<span class="theme-version">v.2.0.1</span>
 					<ul class="theme-links">
 						<li><a href="http://mail.163.com/share/mail2me.htm#email=106105097110103121097104097105064049054051046099111109" target="_blank" class="forums"><?php _e( 'Write to the author', 'presence' ); ?></a></li>
 						<li><a href="http://webjyh.com" target="_blank" class="themes"><?php _e( 'Author Home', 'presence' ); ?></a></li>
