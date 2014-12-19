@@ -34,7 +34,7 @@ echo '</style>'."\n";
 					echo esc_attr( get_bloginfo( 'name', 'display' ) );
 				} else {
 					if ( !empty( $presence_values['general_custom_logo'] ) ){
-						echo '<img src="'.get_bloginfo("template_url").'/'.$presence_values['general_custom_logo'].'" alt="'.esc_attr( get_bloginfo( 'name', 'display' ) ).'" />';
+						echo '<img src="'.$presence_values['general_custom_logo'].'" alt="'.esc_attr( get_bloginfo( 'name', 'display' ) ).'" />';
 					} else {
 			?>
 				<img src="<?php echo get_bloginfo("template_url"); ?>/images/logo.png" width="143" height="60" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" />
