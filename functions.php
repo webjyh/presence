@@ -292,7 +292,7 @@
 			}
 		
 			$comments = get_comments('post_id='.$postid);
-
+			$max_page = get_comment_pages_count($comments);
 			$post = get_post($postid);
 
 			if(!$comments){
@@ -306,16 +306,10 @@
 			// set as singular (is_single || is_page || is_attachment)
 			$wp_query->is_singular = true;
 
-			// base url of page links
-			$baseLink = '';
-			if ($wp_rewrite->using_permalinks()) {
-				$baseLink = '&base=' . user_trailingslashit(get_permalink($postid) . 'comment-page-%#%', 'commentpaged');
-			}
-
 			// response 注意修改callback为你自己的，没有就去掉callback
 			wp_list_comments('callback=presence_comment&type=comment&page=' . $pageid . '&per_page=' . get_option('comments_per_page'), $comments);
 			echo '@||@';
-			paginate_comments_links('current=' . $pageid . $baseLink);
+			paginate_comments_links('prev_text=上一页&next_text=下一页&current='.$pageid.'&total='.$max_page);
 			die;
 		}
 	}
