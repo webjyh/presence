@@ -52,6 +52,6 @@ echo '</style>'."\n";
 		<div class="nav clearfix"><?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'menu' ) ); ?></div>
 	</div>
 	<div class="mobile-nav">
-		<h1><?php _e( 'M.J', 'presence' ); ?></h1>
+		<h1><?php wp_title( '|', true, 'right' ); ?></h1>
 		<a href="javascript:;" title="<?php _e( 'Click Menu', 'presence' ); ?>" id="menu-trigger" class="menu-trigger"></a>
 	</div>
